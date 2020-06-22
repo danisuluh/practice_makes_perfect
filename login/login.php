@@ -1,6 +1,8 @@
 <?php
+require 'functions.php';
+
 if (isset($_POST['login'])){
-  var_dump($_POST);
+  login($_POST);
 }
 
 ?>
